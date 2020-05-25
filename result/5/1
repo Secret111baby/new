@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="2" hostname="WIN-17HMH2PQQKK" name="pytest" skipped="1" tests="7" time="0.156" timestamp="2020-05-18T21:42:23.983550"><testcase classname="Test_case" file="Test_case.py" line="3" name="test_one" time="0.000"></testcase><testcase classname="Test_case" file="Test_case.py" line="6" name="test_two" time="0.000"></testcase><testcase classname="Test_case" file="Test_case.py" line="11" name="test_three" time="0.000"></testcase><testcase classname="test_allure" file="test_allure.py" line="2" name="test_success" time="0.001"></testcase><testcase classname="test_allure" file="test_allure.py" line="7" name="test_failure" time="0.001"><failure message="assert False">def test_failure():
+        &quot;&quot;&quot;this test fails&quot;&quot;&quot;
+&gt;       assert False
+E       assert False
+
+test_allure.py:10: AssertionError</failure></testcase><testcase classname="test_allure" file="test_allure.py" line="12" name="test_skip" time="0.002"><skipped message="for a reason!" type="pytest.skip">C:\Users\Administrator\PycharmProjects\new\test_allure.py:15: for a reason!</skipped></testcase><testcase classname="test_allure" file="test_allure.py" line="17" name="test_broken" time="0.002"><failure message="Exception: oops">def test_broken():
+&gt;       raise Exception(&apos;oops&apos;)
+E       Exception: oops
+
+test_allure.py:19: Exception</failure></testcase></testsuite></testsuites>
